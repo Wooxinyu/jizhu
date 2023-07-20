@@ -51,15 +51,15 @@ void ESP8266_Init()
       /*向ESP8266发送设置工作模式命令，返回'OK'或'no change'*/
 	while(!(Hand("OK") | Hand("no change")))   /*判断是否设置成功，如不成功，延时后再发送*/
 	{	
-		printf("AT+CWMODE=1\r\n");           /*设置工作模式为station模式*/
+		printf("AT+CWMODE=3\r\n");           /*设置工作模式为station模式*/
 		delay_ms(500);                     /*延时*/
 	}
       CLR_Buf();                            /*清空接收数组*/
  
-      /*连接到WiFi热点*/
+      /*配置WiFi热点*/
 	while(!(Hand("OK")))                       /*判断是否设置成功，如不成功，延时后再发送*/
 	{	
-		printf("AT+CWJAP=\"TP-LINK_EA64\",\"bjut0712\"\r\n");
+		printf("AT+CWSAP_DEF=\"P2P\",\"bjut07121\",5,3\r\n");
 		delay_ms(2000);                     /*延时*/
 	}
    CLR_Buf();                                /*清空接收数组*/
@@ -84,7 +84,7 @@ void ESP8266_Init()
 	/*配置该服务器IP地址*/
 	while(!(Hand("OK")))                        /*判断是否设置成功，如不成功，延时后再发送*/
 	{	
-		printf("AT+CIPSTA_DEF=\"192.168.3.217\",\"192.168.3.1\",\"255.255.255.0\"\r\n");   /*发送ESP8266的AT指令*/
+		printf("AT+CIPAP_DEF=\"192.168.3.1\",\"192.168.3.1\",\"255.255.255.0\"\r\n");   /*发送ESP8266的AT指令*/
 		delay_ms(3000);                      /*延时*/
 	}
   CLR_Buf();     

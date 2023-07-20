@@ -2,7 +2,7 @@
 .\obj\esp8266.o: ..\inc\esp8266.h
 .\obj\esp8266.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\obj\esp8266.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-.\obj\esp8266.o: D:\Keil_V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\esp8266.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\esp8266.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\obj\esp8266.o: ..\inc\stm32f10x_conf.h
 .\obj\esp8266.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -31,5 +31,5 @@
 .\obj\esp8266.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\obj\esp8266.o: ..\inc\usart.h
 .\obj\esp8266.o: ..\inc\delay.h
-.\obj\esp8266.o: D:\Keil_V5\ARM\ARMCC\Bin\..\include\string.h
-.\obj\esp8266.o: D:\Keil_V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\esp8266.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\esp8266.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

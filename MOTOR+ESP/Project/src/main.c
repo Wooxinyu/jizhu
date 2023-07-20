@@ -93,13 +93,13 @@ int main(void)
 		{
 			MOTOR1_RUN
 		}
-		if(pressure2>5000)
-		{
-			MOTOR2_STOP
-		}
-		{
-			MOTOR2_RUN
-		}
+//		if(pressure2>5000)
+//		{
+//			MOTOR2_STOP
+//		}
+//		{
+//			MOTOR2_RUN
+//		}
 		if(pressure3 > 5000)
 		{
 			MOTOR_SCAN_STOP
