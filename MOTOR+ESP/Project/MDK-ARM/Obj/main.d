@@ -1,7 +1,7 @@
 .\obj\main.o: ..\src\main.c
 .\obj\main.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\obj\main.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\main.o: D:\Keil_V5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\main.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\obj\main.o: ..\inc\stm32f10x_conf.h
 .\obj\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -33,8 +33,8 @@
 .\obj\main.o: ..\inc\bsp_motor_init.h
 .\obj\main.o: ..\inc\motor_control.h
 .\obj\main.o: ..\inc\usart.h
-.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: D:\Keil_V5\ARM\ARMCC\Bin\..\include\stdio.h
 .\obj\main.o: ..\inc\usart_scan.h
-.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\obj\main.o: D:\Keil_V5\ARM\ARMCC\Bin\..\include\math.h
 .\obj\main.o: ..\inc\esp8266.h
-.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\main.o: D:\Keil_V5\ARM\ARMCC\Bin\..\include\string.h
